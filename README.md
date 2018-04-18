@@ -1,10 +1,18 @@
 # CodingTest - Front End
 
+## Legal
+
+By continuing to read this test you agree not to share or distribute the contents of this test or your answers with anyone outside of HyperJar either electronically or verbally or by any other means. The contents of this file and the other artifacts it refers to are Copyright HyperJar Ltd., 2018.
+
+## Test Environment Requirements
+
+You will need a recent version of Node.js LTS (v8 or later) and a text editor.
+
 ## Overview
 
 Product has asked for a web app to display the data available at http://jsonplaceholder.typicode.com/.
 
-A developer began building the new app, but suddenly got very sick. This app should be finished quickly (in about 1 hour) BUT ALSO WITH QUALITY.
+A developer began building the new app, but suddenly got very sick. This app should be finished quickly (in about 1.5 hours) BUT ALSO WITH QUALITY.
 
 We've given you a basic starter project using __[React](https://facebook.github.io/react/)__. Please write a web application that meets the requirements detailed in the next section.
 
@@ -25,7 +33,7 @@ _Note: Running the app should only involve the commands `npm install` and `npm s
 
 The user should be able to click on a Post in the list, and go to a page which displays:
 
-- The Post (title, author, time, body)
+- The Post (title, body, userId)
 - All its Comments (name, email, body)
 
 You can use a router library other than `react-router` if you prefer. Must be URL (or hash) navigable, i.e. "SPA".
